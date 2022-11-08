@@ -2,7 +2,7 @@
 
 <div class="banner">
   <div class="container">
-  <%= link_to 'New Task', new_task_path, class: 'btn btn-primary mt-5' %>
+  <p><%= link_to 'New Task', new_task_path %></p>
     <% @tasks.each do |task| %>
     <p>
       <%= link_to task.title, task_path(task)  %>
