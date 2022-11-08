@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+ .banner {
+  background-image: image-url("mainpage.png");
+  background-repeat: no-repeat;
+  background-color: #6dd1b6;
+  height: 700px;
+  display: flex;
+  background-position: center;
+  justify-content:center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+
+}
+
+p {
+  font-family: Indie Flower;
+  color:#2c2c2c;
+}
+
+a {
+  text-decoration: none;
+  color:#2c2c2c;
+}
